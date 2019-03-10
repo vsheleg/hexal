@@ -230,13 +230,7 @@ span.circle {
     top: 92px;
     left: 118px;
 }
-input {
-    width: 100%;
-    margin-top:20px;
-    border: 12px solid black;
-    box-sizing:  border-box;
 
-}
 .nav-item {
     margin: 7px;
     font-family: LatoBold, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
@@ -374,3 +368,75 @@ nav ul li {
 .ico-facebook:hover {
     /* background, color*/
 }
+.form-container {
+    position: relative;
+    /* height: 420px; */
+    top: 454px;
+    height: 564px;
+    background-color: #323232;
+}
+
+.footer {
+    bottom:0;
+    position:absolute;
+}
+.get-in-touch {
+    font-family: MavenProRegular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 23pt;
+    color: rgba(224, 224, 224, 255);
+    text-align: justify;
+}
+.footer-subtitle {
+    font-family: MavenProRegular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 13pt;
+    color: rgba(190, 190, 190, 255);
+    text-align: justify;
+
+}
+input[type=text] {
+    
+    background-color: #454545;
+    border:none;
+    height:38px;
+    width:580px;
+    color:white;
+    font-family: LatoRegular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+font-size: 12pt;
+color: rgba(190, 190, 190, 255);
+text-align: justify;
+}
+input[type=email] {
+    background-color: #454545;
+    color:white;
+    height:38px;
+    width:580px;
+    border:none;
+    font-family: LatoRegular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+font-size: 12pt;
+color: rgba(190, 190, 190, 255);
+text-align: justify;
+}
+footer textarea{
+    width:580px;
+    border:none;
+    height:150px;
+    background-color: #454545;
+    color:white;
+    font-family: LatoRegular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+font-size: 12pt;
+color: rgba(190, 190, 190, 255);
+}
+.form {
+    left: 122px;
+    position: absolute;
+    bottom: 65px;
+}
+footer li {
+    
+    margin:0 0 10px 0;
+}
+footer ul {
+    line-height:300%
+}
+
+   
