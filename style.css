@@ -1,0 +1,278 @@
+
+/* latin-ext */
+@font-face {
+    font-family: 'LatoRegular';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjxAwXjeu.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'LatoRegular';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjx4wXg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+/* latin-ext */
+@font-face {
+    font-family: 'LatoBold';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjxAwXjeu.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'LatoBold';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjx4wXg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  /* latin-ext */
+  @font-face {
+    font-family: 'LatoBold';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh6UVSwaPGR_p.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  /* latin */
+  @font-face {
+    font-family: 'LatoBold';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh6UVSwiPGQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+
+/* vietnamese */
+@font-face {
+  font-family: 'MavenProRegular';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Maven Pro Regular'), local('MavenPro-Regular'), url(https://fonts.gstatic.com/s/mavenpro/v11/7Au9p_AqnyWWAxW2Wk3GwmQIAFg.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'MavenProRegular';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Maven Pro Regular'), local('MavenPro-Regular'), url(https://fonts.gstatic.com/s/mavenpro/v11/7Au9p_AqnyWWAxW2Wk3Gw2QIAFg.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'MavenProRegular';
+    
+  font-style: normal;
+  font-weight: 400;
+  src: local('Maven Pro Regular'), local('MavenPro-Regular'), url(https://fonts.gstatic.com/s/mavenpro/v11/7Au9p_AqnyWWAxW2Wk3GzWQI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+html {
+    width: 1020px;
+    height:1506px;
+}
+header {
+    background :#323232 ;   
+    height: 63px;
+    position: relative;
+}
+header:after {
+    content: "";
+    width:0;
+    height:0;
+    border-left: 47px solid transparent;
+    border-right: 47px solid transparent;
+    border-top: 28px solid #323232;
+    position:absolute;
+    left:50%;
+    top:63px;
+    transform:translateX(-50%);
+    
+}
+span.circle {
+    width:2px;
+    height:2px;
+    border-radius:100;
+}
+.hexagon {
+    width:180px;
+    height:203px;
+	background: white;
+    position: relative;
+    overflow:hidden;
+    
+  
+}
+.hexagon:before {
+	content: "";
+	position: absolute;
+	top: 0px; 
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 90px solid white;
+	border-right: 90px solid white;
+    border-bottom: 50px solid transparent;
+    z-index:1;
+}
+.hexagon:after {
+	content: "";
+	position: absolute;
+	bottom: 0px; 
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 90px solid white;
+	border-right: 90px solid white;
+    border-top: 50px solid transparent;
+   
+}
+.hexagon img {
+    width:180px;
+    height:203px;
+    border:20px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+} 
+
+.row {
+   
+   display: flex;
+   width:1020px;
+   padding:0;
+   margin:0;
+}
+#logo {
+    top:11px;
+    left:333px;
+}
+.middle .hexagon{
+    top: 56px;
+    left: 18px;
+}
+.bottom .hexagon{
+    top: 21px;
+    left: 118px;
+}
+.top .hexagon {
+    top: 92px;
+    left: 118px;
+}
+input {
+    width: 100%;
+    margin-top:20px;
+    border: 12px solid black;
+    box-sizing:  border-box;
+
+}
+.nav-item {
+    margin: 7px;
+    font-family: LatoBold, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 7.21379pt;   
+    color: rgba(46, 179, 152, 255);
+    position:relative;
+    top: -14px;
+    left: 320px;
+}
+nav ul li {
+    display: inline;
+}
+#nav  {
+    position:absolute;
+}
+#ABOUT {
+    left: 314px;
+    color:white;
+}
+#BLOG {
+    left: 354px;
+    color:white;
+}
+#GET-IN-TOUCH {
+    left: 361px;
+    color:white;
+}
+.cv-container{
+    position:relative;
+}
+.cv {
+    position:absolute;
+    background-color:#2eb398;
+    height:341px;
+    width:1020px;
+    top:113px;
+    display:inline-block;
+}
+.line {
+    position: absolute;
+    background-color:black;
+    height:316px;
+    border-left: black;
+    width:1px;
+    left:100px;
+    opacity: 0.3;
+    top:14px;
+}
+.photo {
+    left: 120px;
+    position: relative;
+    top: 70px;
+    
+}
+.photo::before{
+    border-left: 90px solid #2eb398;
+	border-right: 90px solid #2eb398;
+}
+.photo::after {
+    border-left: 90px solid #2eb398;
+	border-right: 90px solid #2eb398;
+}
+.name {
+    top: 63px;
+    left: 320px;
+    position: absolute;
+    font-family: MavenProRegular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 22pt;
+    color: rgba(215, 252, 245, 255);
+    text-align: justify;
+}
+.subtitle {
+    font-family: MavenProRegular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    position: absolute;
+    left: 322px;
+    top: 96px;
+    font-size: 13pt;
+    color: rgba(32, 129, 109, 255);
+    text-align: justify;
+}
+.desc {
+    position: absolute;
+    top: 134px;
+    letter-spacing: 0.006em;
+    line-height: 1.7;
+    left: 320px;
+    font-family: LatoRegular, ﻿AdobeInvisFont, ﻿MyriadPro-Regular;
+    font-size: 9pt;
+    color: rgba(215, 252, 245, 255);
+    text-align: justify;
+}
+.line-right {
+    position: absolute;
+    background-color:black;
+    height:316px;
+    border-left: black;
+    width:1px;
+    right:98px;
+    opacity: 0.3;
+    top:14px;
+}
